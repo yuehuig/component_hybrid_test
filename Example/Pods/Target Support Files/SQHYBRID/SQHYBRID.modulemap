@@ -1,0 +1,6 @@
+module SQHYBRID {
+  umbrella header "SQHYBRID-umbrella.h"
+
+  export *
+  module * { export * }
+}

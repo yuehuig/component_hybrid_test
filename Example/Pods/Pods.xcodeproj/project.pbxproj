@@ -1,0 +1,1247 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXAggregateTarget section */
+		8554F6236D2AA202CF58503D2DF29730 /* WechatOpenSDK */ = {
+			isa = PBXAggregateTarget;
+			buildConfigurationList = B4396AE737F0AA89F8D89F674B8511C8 /* Build configuration list for PBXAggregateTarget "WechatOpenSDK" */;
+			buildPhases = (
+			);
+			dependencies = (
+			);
+			name = WechatOpenSDK;
+		};
+/* End PBXAggregateTarget section */
+
+/* Begin PBXBuildFile section */
+		0978FEF1E925744EEAF7E76217BF4A86 /* FBSnapshotTestCase.h in Headers */ = {isa = PBXBuildFile; fileRef = 27A02FCC3647198F7B6910974C82E28A /* FBSnapshotTestCase.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		0A6BCFDC5E4D2F5A6EF0F97C839A1212 /* People.h in Headers */ = {isa = PBXBuildFile; fileRef = 6D03C95CF18F17BCE1D4395082D24AAC /* People.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		148FB4E43367C5A3C97B293FBB230915 /* Pods-SQHYBRID_Tests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 7DC66738BD8FD2676C60BB780715A86E /* Pods-SQHYBRID_Tests-dummy.m */; };
+		1848D9FEDA039DD5627A3491792221F6 /* SQHYBRID-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 20FC523397EEA872F862578B93CC76C0 /* SQHYBRID-umbrella.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		19F37CC50E23DE48D4345923514B8F98 /* UIApplication+StrictKeyWindow.m in Sources */ = {isa = PBXBuildFile; fileRef = 61254B897E173361868ED6BA75E958CD /* UIApplication+StrictKeyWindow.m */; };
+		2A6E7B2258C3DA9E99A0C5FC7E87F32F /* SQWeChat-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 93A27958EE3171885E150869CFC88848 /* SQWeChat-umbrella.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		4CEBABEEEC18A57446C4EE396A3A4E7D /* SQHYBRID-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 2BCA154FDBD024B0FA56089F188F1BF2 /* SQHYBRID-dummy.m */; };
+		50544CC39838135DDBF0047A180E97F4 /* FBSnapshotTestCasePlatform.h in Headers */ = {isa = PBXBuildFile; fileRef = D4DEBCB865F2EA196D9EF45A58F065A8 /* FBSnapshotTestCasePlatform.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		5693A08347C5CFEBCEBAA2AED5FADEE1 /* FBSnapshotTestCasePlatform.m in Sources */ = {isa = PBXBuildFile; fileRef = 17856FA1EAE6ABF4EF5054DC9A9C4EBF /* FBSnapshotTestCasePlatform.m */; };
+		58F11D103B28DD54D3E83289C5D64CCE /* SQWeChat-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 3E1C97E90E3B8502438CCF28998923E1 /* SQWeChat-dummy.m */; };
+		73DAF1110AA478455AA43A9788FEF551 /* Pods-SQHYBRID_Example-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 90A056B70F07149D438CB772BFB5CD3E /* Pods-SQHYBRID_Example-dummy.m */; };
+		77963FF7EE2C6BF810466A85D700811E /* FBSnapshotTestController.m in Sources */ = {isa = PBXBuildFile; fileRef = 1AD6E1742EECC0CF58F2E6AD7F04AFC9 /* FBSnapshotTestController.m */; };
+		7C7622AEBBED15F0484F33656E694196 /* SQWeChat.m in Sources */ = {isa = PBXBuildFile; fileRef = 9AC5BA179F9FE58C3CD5EF4265B6C4CC /* SQWeChat.m */; };
+		7F6C0B2BB3235AD3A183F0958A445436 /* People.m in Sources */ = {isa = PBXBuildFile; fileRef = 18573F719555E5FC9E360A69A00CD2CF /* People.m */; };
+		87D6F8413A7B375C836E57CCAD550A7F /* SwiftSupport.swift in Sources */ = {isa = PBXBuildFile; fileRef = E269C4384F675706317FAE8E3F4A10F4 /* SwiftSupport.swift */; };
+		8C0B5EBDF83DDC66A416370F936B9A00 /* UIApplication+StrictKeyWindow.h in Headers */ = {isa = PBXBuildFile; fileRef = 0DC23D0336A521F814A141D182EF7029 /* UIApplication+StrictKeyWindow.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		91B4C532D3EB0021BC8009E102399E40 /* Pods-SQHYBRID_Tests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = F5F5B1DC18170C22E8A69BE028CEE819 /* Pods-SQHYBRID_Tests-umbrella.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		A457A948F248D2A52CD05F067B0C1367 /* UIImage+Compare.m in Sources */ = {isa = PBXBuildFile; fileRef = 325FACEDC898BDF9E9773951AB283FD9 /* UIImage+Compare.m */; };
+		AB3570007412B510F78B81D1A83E7FC9 /* FBSnapshotTestCase-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 56B41B3723E0F3B23CDC5D991004FE40 /* FBSnapshotTestCase-umbrella.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		B14450EE0048E2F0F749FD44DEE286E7 /* ReplaceMe.m in Sources */ = {isa = PBXBuildFile; fileRef = 6923936BEBF68DD371C17DE7F23BB8DC /* ReplaceMe.m */; };
+		B8ADA30C051A2790FE88BE07CBFFF592 /* UIImage+Diff.m in Sources */ = {isa = PBXBuildFile; fileRef = B70850209BB782FB9C1AC8525D344992 /* UIImage+Diff.m */; };
+		C01FC19A04911C2BC603C144A7078E9E /* SQWeChat.h in Headers */ = {isa = PBXBuildFile; fileRef = CECC75B1BDE762040C69FA3FDB99E9E8 /* SQWeChat.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		C227FD1C858148327AD6CF45F9BC35E4 /* UIImage+Diff.h in Headers */ = {isa = PBXBuildFile; fileRef = 0DEAC74750F0A6F0BEE1118C95E60316 /* UIImage+Diff.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		C3CA256CC5C3308862AFF3218B47B684 /* UIImage+Compare.h in Headers */ = {isa = PBXBuildFile; fileRef = 4CF9F76F3C32B145B086E94C7C796850 /* UIImage+Compare.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		CBD39660A2AEA338F8D2CE18BEBECEF9 /* UIImage+Snapshot.m in Sources */ = {isa = PBXBuildFile; fileRef = 32514FFB288ABBB1A4553AF0B8469A64 /* UIImage+Snapshot.m */; };
+		D5FAA5ED25EAEE61F6476D63E0CA9894 /* FBSnapshotTestCase-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = FA19CA36B5C7687F08921ACCA242A166 /* FBSnapshotTestCase-dummy.m */; };
+		D607E281B6103D213C2295CE59CC6658 /* FBSnapshotTestCase.m in Sources */ = {isa = PBXBuildFile; fileRef = CB84F5C67B04B4A4E247DDB4E1944F4A /* FBSnapshotTestCase.m */; };
+		DA46F4690046D8DF12C0B4ED808A8B42 /* Pods-SQHYBRID_Example-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 841D80BE8D994CA18D75BD72931ACE89 /* Pods-SQHYBRID_Example-umbrella.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		EFA45E70CD6224C8B68738ED9E97CA21 /* FBSnapshotTestController.h in Headers */ = {isa = PBXBuildFile; fileRef = C85E26FA986CD94D9B1972485111F7F3 /* FBSnapshotTestController.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		F1BA76E1B546BF0C4D34A840685F4BCB /* Person.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9747B26928BB19D179AC8B3D5DABB1B5 /* Person.swift */; };
+		F876F054886227B059B0778C6C1A0A83 /* UIImage+Snapshot.h in Headers */ = {isa = PBXBuildFile; fileRef = B3B6F5D35D7531ABBF66BA6D6FECAE3E /* UIImage+Snapshot.h */; settings = {ATTRIBUTES = (Project, ); }; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		1D85D0AA3906A85D8756A01AC01AF5B7 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 8554F6236D2AA202CF58503D2DF29730;
+			remoteInfo = WechatOpenSDK;
+		};
+		24D1315F96377B856AECC5FC2BDC55CB /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 8554F6236D2AA202CF58503D2DF29730;
+			remoteInfo = WechatOpenSDK;
+		};
+		46ED3D46B552C3C72F2ACB7C532605F7 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = A1A9162B219778CF8A78AD946F946F1A;
+			remoteInfo = SQWeChat;
+		};
+		7ED3365A76D2A8793CA94C0FE99863C6 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = A1A9162B219778CF8A78AD946F946F1A;
+			remoteInfo = SQWeChat;
+		};
+		8578FA23CC2A81034D4536C75F14D0D4 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 5606EA63E448168B7A890C63106F2DB3;
+			remoteInfo = "Pods-SQHYBRID_Example";
+		};
+		A385A8E691CBCA8D78BEBE5B0490CD27 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 1BEAD0DCE223615A42952680DAB066B1;
+			remoteInfo = SQHYBRID;
+		};
+		E4BE3460D1A9C75E27CB2E2F9D53CE99 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 98A98149697C80CEF8D5772791E92E66;
+			remoteInfo = FBSnapshotTestCase;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		00F731A44465D312DE928667B403112E /* Pods-SQHYBRID_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-SQHYBRID_Tests.release.xcconfig"; sourceTree = "<group>"; };
+		07CD846344627979B517E7951CC28E9D /* WXApiObject.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = WXApiObject.h; path = OpenSDK1.8.7.1/WXApiObject.h; sourceTree = "<group>"; };
+		0DC23D0336A521F814A141D182EF7029 /* UIApplication+StrictKeyWindow.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UIApplication+StrictKeyWindow.h"; path = "FBSnapshotTestCase/Categories/UIApplication+StrictKeyWindow.h"; sourceTree = "<group>"; };
+		0DEAC74750F0A6F0BEE1118C95E60316 /* UIImage+Diff.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UIImage+Diff.h"; path = "FBSnapshotTestCase/Categories/UIImage+Diff.h"; sourceTree = "<group>"; };
+		0F9B9B7C20274AA39545DB3835BFF09C /* libPods-SQHYBRID_Tests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; name = "libPods-SQHYBRID_Tests.a"; path = "libPods-SQHYBRID_Tests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		1118DA729E0150802E1147C4D270B345 /* SQWeChat.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = SQWeChat.modulemap; sourceTree = "<group>"; };
+		13A2ED6FF1C01BA9E8055A21E6112E87 /* SQHYBRID.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = SQHYBRID.release.xcconfig; sourceTree = "<group>"; };
+		17856FA1EAE6ABF4EF5054DC9A9C4EBF /* FBSnapshotTestCasePlatform.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = FBSnapshotTestCasePlatform.m; path = FBSnapshotTestCase/FBSnapshotTestCasePlatform.m; sourceTree = "<group>"; };
+		18573F719555E5FC9E360A69A00CD2CF /* People.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = People.m; path = SQHYBRID/Classes/People.m; sourceTree = "<group>"; };
+		1AD6E1742EECC0CF58F2E6AD7F04AFC9 /* FBSnapshotTestController.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = FBSnapshotTestController.m; path = FBSnapshotTestCase/FBSnapshotTestController.m; sourceTree = "<group>"; };
+		1B126016E176C3B5C8449B90D134869A /* SQWeChat.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = SQWeChat.debug.xcconfig; sourceTree = "<group>"; };
+		203A8920AF8CD3B8283652AF5A8D858F /* FBSnapshotTestCase.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = FBSnapshotTestCase.modulemap; sourceTree = "<group>"; };
+		20FC523397EEA872F862578B93CC76C0 /* SQHYBRID-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "SQHYBRID-umbrella.h"; sourceTree = "<group>"; };
+		27A02FCC3647198F7B6910974C82E28A /* FBSnapshotTestCase.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = FBSnapshotTestCase.h; path = FBSnapshotTestCase/FBSnapshotTestCase.h; sourceTree = "<group>"; };
+		2B563CB9A3FDC57B23D260998AD679C5 /* WechatOpenSDK.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = WechatOpenSDK.release.xcconfig; sourceTree = "<group>"; };
+		2BCA154FDBD024B0FA56089F188F1BF2 /* SQHYBRID-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "SQHYBRID-dummy.m"; sourceTree = "<group>"; };
+		32514FFB288ABBB1A4553AF0B8469A64 /* UIImage+Snapshot.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UIImage+Snapshot.m"; path = "FBSnapshotTestCase/Categories/UIImage+Snapshot.m"; sourceTree = "<group>"; };
+		325FACEDC898BDF9E9773951AB283FD9 /* UIImage+Compare.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UIImage+Compare.m"; path = "FBSnapshotTestCase/Categories/UIImage+Compare.m"; sourceTree = "<group>"; };
+		3E1C97E90E3B8502438CCF28998923E1 /* SQWeChat-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "SQWeChat-dummy.m"; sourceTree = "<group>"; };
+		41C7DAFD025315E7A603C23DF216D436 /* Pods-SQHYBRID_Tests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-SQHYBRID_Tests-acknowledgements.markdown"; sourceTree = "<group>"; };
+		4CF9F76F3C32B145B086E94C7C796850 /* UIImage+Compare.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UIImage+Compare.h"; path = "FBSnapshotTestCase/Categories/UIImage+Compare.h"; sourceTree = "<group>"; };
+		4F226623C2DFAF62B6113C7434F52922 /* FBSnapshotTestCase-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "FBSnapshotTestCase-prefix.pch"; sourceTree = "<group>"; };
+		51C07B0CCCF22581E8DD385039B485CF /* Pods-SQHYBRID_Tests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-SQHYBRID_Tests.modulemap"; sourceTree = "<group>"; };
+		56B41B3723E0F3B23CDC5D991004FE40 /* FBSnapshotTestCase-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "FBSnapshotTestCase-umbrella.h"; sourceTree = "<group>"; };
+		58B513C36A1F6CDCA0C0D69041CD2C9C /* SQHYBRID.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = SQHYBRID.debug.xcconfig; sourceTree = "<group>"; };
+		5C4F31330DFA99D699E4BDC8C3573D73 /* libFBSnapshotTestCase.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; name = libFBSnapshotTestCase.a; path = libFBSnapshotTestCase.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		61254B897E173361868ED6BA75E958CD /* UIApplication+StrictKeyWindow.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UIApplication+StrictKeyWindow.m"; path = "FBSnapshotTestCase/Categories/UIApplication+StrictKeyWindow.m"; sourceTree = "<group>"; };
+		63C18022A969CE4FDF74B0C07BFBF184 /* SQHYBRID.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; path = SQHYBRID.podspec; sourceTree = "<group>"; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		669F6B5ED110F1A7F435A24EA47E9FE7 /* libPods-SQHYBRID_Example.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; name = "libPods-SQHYBRID_Example.a"; path = "libPods-SQHYBRID_Example.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		68C865300345F7E4AA681D46DBC92C84 /* libWeChatSDK.a */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = archive.ar; name = libWeChatSDK.a; path = OpenSDK1.8.7.1/libWeChatSDK.a; sourceTree = "<group>"; };
+		6923936BEBF68DD371C17DE7F23BB8DC /* ReplaceMe.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = ReplaceMe.m; path = SQHYBRID/Classes/ReplaceMe.m; sourceTree = "<group>"; };
+		6CC8DD15A692D8BD311E88DA8B139174 /* WXApi.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = WXApi.h; path = OpenSDK1.8.7.1/WXApi.h; sourceTree = "<group>"; };
+		6D03C95CF18F17BCE1D4395082D24AAC /* People.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = People.h; path = SQHYBRID/Classes/People.h; sourceTree = "<group>"; };
+		6EEDE1897E01865CC836CBC2ECA65646 /* SQWeChat.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = SQWeChat.release.xcconfig; sourceTree = "<group>"; };
+		6F79F8E64C885992182C571DD479AF6A /* SQHYBRID-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "SQHYBRID-prefix.pch"; sourceTree = "<group>"; };
+		75C0D801D171D0726EF83A95E74BF8B1 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; path = LICENSE; sourceTree = "<group>"; };
+		7DC66738BD8FD2676C60BB780715A86E /* Pods-SQHYBRID_Tests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-SQHYBRID_Tests-dummy.m"; sourceTree = "<group>"; };
+		841D80BE8D994CA18D75BD72931ACE89 /* Pods-SQHYBRID_Example-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-SQHYBRID_Example-umbrella.h"; sourceTree = "<group>"; };
+		862FB430420FF7548D1D7D2158E4BC08 /* Pods-SQHYBRID_Example-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-SQHYBRID_Example-acknowledgements.plist"; sourceTree = "<group>"; };
+		86E88AD4A3F14193AA30C783A98D8DBB /* libSQWeChat.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; name = libSQWeChat.a; path = libSQWeChat.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		90A056B70F07149D438CB772BFB5CD3E /* Pods-SQHYBRID_Example-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-SQHYBRID_Example-dummy.m"; sourceTree = "<group>"; };
+		918A7642F88B0B0A224E373F45863DDF /* SQHYBRID.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = SQHYBRID.modulemap; sourceTree = "<group>"; };
+		93A27958EE3171885E150869CFC88848 /* SQWeChat-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "SQWeChat-umbrella.h"; sourceTree = "<group>"; };
+		9747B26928BB19D179AC8B3D5DABB1B5 /* Person.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Person.swift; path = SQHYBRID/Classes/Person.swift; sourceTree = "<group>"; };
+		98EF62571C19D1B9BD87BF05CF9382FC /* SQWeChat-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "SQWeChat-prefix.pch"; sourceTree = "<group>"; };
+		99FFC0C74964A673FA06C46F0783A37F /* libSQHYBRID.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; name = libSQHYBRID.a; path = libSQHYBRID.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		9AC5BA179F9FE58C3CD5EF4265B6C4CC /* SQWeChat.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = SQWeChat.m; path = SQWeChat/Classes/SQWeChat.m; sourceTree = "<group>"; };
+		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		A784BCD1E18B3D43FFDC7975B8CFB65C /* FBSnapshotTestCase.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = FBSnapshotTestCase.release.xcconfig; sourceTree = "<group>"; };
+		B0E536CD1202A450ADB2EF0B0A1D041C /* Pods-SQHYBRID_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-SQHYBRID_Tests.debug.xcconfig"; sourceTree = "<group>"; };
+		B3B6F5D35D7531ABBF66BA6D6FECAE3E /* UIImage+Snapshot.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UIImage+Snapshot.h"; path = "FBSnapshotTestCase/Categories/UIImage+Snapshot.h"; sourceTree = "<group>"; };
+		B70850209BB782FB9C1AC8525D344992 /* UIImage+Diff.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UIImage+Diff.m"; path = "FBSnapshotTestCase/Categories/UIImage+Diff.m"; sourceTree = "<group>"; };
+		B91E06AB45F68772462D01E82BC750BC /* Pods-SQHYBRID_Tests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-SQHYBRID_Tests-acknowledgements.plist"; sourceTree = "<group>"; };
+		C85E26FA986CD94D9B1972485111F7F3 /* FBSnapshotTestController.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = FBSnapshotTestController.h; path = FBSnapshotTestCase/FBSnapshotTestController.h; sourceTree = "<group>"; };
+		CB84F5C67B04B4A4E247DDB4E1944F4A /* FBSnapshotTestCase.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = FBSnapshotTestCase.m; path = FBSnapshotTestCase/FBSnapshotTestCase.m; sourceTree = "<group>"; };
+		CECC75B1BDE762040C69FA3FDB99E9E8 /* SQWeChat.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = SQWeChat.h; path = SQWeChat/Classes/SQWeChat.h; sourceTree = "<group>"; };
+		CF9B1EB06E47C6253FC0FE0F19D82D64 /* Pods-SQHYBRID_Example.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-SQHYBRID_Example.modulemap"; sourceTree = "<group>"; };
+		D175B032027E8A83FFA2B0CF30C90A83 /* WechatOpenSDK.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = WechatOpenSDK.debug.xcconfig; sourceTree = "<group>"; };
+		D1E1EC6A8C832ADF332BB44DF2B76064 /* Pods-SQHYBRID_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-SQHYBRID_Example.release.xcconfig"; sourceTree = "<group>"; };
+		D38E3956052339EB06F11FE5001FCAB8 /* Pods-SQHYBRID_Example-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-SQHYBRID_Example-acknowledgements.markdown"; sourceTree = "<group>"; };
+		D4DEBCB865F2EA196D9EF45A58F065A8 /* FBSnapshotTestCasePlatform.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = FBSnapshotTestCasePlatform.h; path = FBSnapshotTestCase/FBSnapshotTestCasePlatform.h; sourceTree = "<group>"; };
+		D6783F262F9E8F18EB9BA9CA1EC55C41 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; path = README.md; sourceTree = "<group>"; };
+		D6CEAB39D4469EEC862A6AC1F6425D3C /* FBSnapshotTestCase.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = FBSnapshotTestCase.debug.xcconfig; sourceTree = "<group>"; };
+		E269C4384F675706317FAE8E3F4A10F4 /* SwiftSupport.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = SwiftSupport.swift; path = FBSnapshotTestCase/SwiftSupport.swift; sourceTree = "<group>"; };
+		E428F1BA3BB9F27F620D75238D23BA34 /* Pods-SQHYBRID_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-SQHYBRID_Example.debug.xcconfig"; sourceTree = "<group>"; };
+		F5F5B1DC18170C22E8A69BE028CEE819 /* Pods-SQHYBRID_Tests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-SQHYBRID_Tests-umbrella.h"; sourceTree = "<group>"; };
+		F9672D20A3D7AC867F4FA5205C39956D /* WechatAuthSDK.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = WechatAuthSDK.h; path = OpenSDK1.8.7.1/WechatAuthSDK.h; sourceTree = "<group>"; };
+		FA19CA36B5C7687F08921ACCA242A166 /* FBSnapshotTestCase-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "FBSnapshotTestCase-dummy.m"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		158102E0002E78395210B6B5C02D02CB /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1CEECC99BBEC723A29C519694ABEC00B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		326089C60310E03CF181103658F513D6 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BEAC8F6B24430E838AA06540973FAA50 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CBB626DE0886B7C7A92B6796CA56C998 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		07A60DD8FE91A89ED01BEB4A75B79858 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				5C4F31330DFA99D699E4BDC8C3573D73 /* libFBSnapshotTestCase.a */,
+				669F6B5ED110F1A7F435A24EA47E9FE7 /* libPods-SQHYBRID_Example.a */,
+				0F9B9B7C20274AA39545DB3835BFF09C /* libPods-SQHYBRID_Tests.a */,
+				99FFC0C74964A673FA06C46F0783A37F /* libSQHYBRID.a */,
+				86E88AD4A3F14193AA30C783A98D8DBB /* libSQWeChat.a */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		0CC5D5DA95EC09B11AE098B815AC5A3E /* SwiftSupport */ = {
+			isa = PBXGroup;
+			children = (
+				E269C4384F675706317FAE8E3F4A10F4 /* SwiftSupport.swift */,
+			);
+			name = SwiftSupport;
+			sourceTree = "<group>";
+		};
+		10E581C1A24F890C1538C2F26EEF6364 /* WechatOpenSDK */ = {
+			isa = PBXGroup;
+			children = (
+				F9672D20A3D7AC867F4FA5205C39956D /* WechatAuthSDK.h */,
+				6CC8DD15A692D8BD311E88DA8B139174 /* WXApi.h */,
+				07CD846344627979B517E7951CC28E9D /* WXApiObject.h */,
+				966DC7E269C62D20C9737DC41246B1A3 /* Frameworks */,
+				3848544833144B3DA05652B031660CA9 /* Support Files */,
+			);
+			name = WechatOpenSDK;
+			path = WechatOpenSDK;
+			sourceTree = "<group>";
+		};
+		342EFF9E926C079A8F749A4244A76991 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				203A8920AF8CD3B8283652AF5A8D858F /* FBSnapshotTestCase.modulemap */,
+				FA19CA36B5C7687F08921ACCA242A166 /* FBSnapshotTestCase-dummy.m */,
+				4F226623C2DFAF62B6113C7434F52922 /* FBSnapshotTestCase-prefix.pch */,
+				56B41B3723E0F3B23CDC5D991004FE40 /* FBSnapshotTestCase-umbrella.h */,
+				D6CEAB39D4469EEC862A6AC1F6425D3C /* FBSnapshotTestCase.debug.xcconfig */,
+				A784BCD1E18B3D43FFDC7975B8CFB65C /* FBSnapshotTestCase.release.xcconfig */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/FBSnapshotTestCase";
+			sourceTree = "<group>";
+		};
+		3848544833144B3DA05652B031660CA9 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				D175B032027E8A83FFA2B0CF30C90A83 /* WechatOpenSDK.debug.xcconfig */,
+				2B563CB9A3FDC57B23D260998AD679C5 /* WechatOpenSDK.release.xcconfig */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/WechatOpenSDK";
+			sourceTree = "<group>";
+		};
+		43945E56F5656D8A0088A19A68D091D6 /* Pods-SQHYBRID_Tests */ = {
+			isa = PBXGroup;
+			children = (
+				51C07B0CCCF22581E8DD385039B485CF /* Pods-SQHYBRID_Tests.modulemap */,
+				41C7DAFD025315E7A603C23DF216D436 /* Pods-SQHYBRID_Tests-acknowledgements.markdown */,
+				B91E06AB45F68772462D01E82BC750BC /* Pods-SQHYBRID_Tests-acknowledgements.plist */,
+				7DC66738BD8FD2676C60BB780715A86E /* Pods-SQHYBRID_Tests-dummy.m */,
+				F5F5B1DC18170C22E8A69BE028CEE819 /* Pods-SQHYBRID_Tests-umbrella.h */,
+				B0E536CD1202A450ADB2EF0B0A1D041C /* Pods-SQHYBRID_Tests.debug.xcconfig */,
+				00F731A44465D312DE928667B403112E /* Pods-SQHYBRID_Tests.release.xcconfig */,
+			);
+			name = "Pods-SQHYBRID_Tests";
+			path = "Target Support Files/Pods-SQHYBRID_Tests";
+			sourceTree = "<group>";
+		};
+		623EF6FE1030311D9358485FDBCEC961 /* Pods-SQHYBRID_Example */ = {
+			isa = PBXGroup;
+			children = (
+				CF9B1EB06E47C6253FC0FE0F19D82D64 /* Pods-SQHYBRID_Example.modulemap */,
+				D38E3956052339EB06F11FE5001FCAB8 /* Pods-SQHYBRID_Example-acknowledgements.markdown */,
+				862FB430420FF7548D1D7D2158E4BC08 /* Pods-SQHYBRID_Example-acknowledgements.plist */,
+				90A056B70F07149D438CB772BFB5CD3E /* Pods-SQHYBRID_Example-dummy.m */,
+				841D80BE8D994CA18D75BD72931ACE89 /* Pods-SQHYBRID_Example-umbrella.h */,
+				E428F1BA3BB9F27F620D75238D23BA34 /* Pods-SQHYBRID_Example.debug.xcconfig */,
+				D1E1EC6A8C832ADF332BB44DF2B76064 /* Pods-SQHYBRID_Example.release.xcconfig */,
+			);
+			name = "Pods-SQHYBRID_Example";
+			path = "Target Support Files/Pods-SQHYBRID_Example";
+			sourceTree = "<group>";
+		};
+		69B49C4C566F2C4F21A53016CDD1E2EA /* Core */ = {
+			isa = PBXGroup;
+			children = (
+				27A02FCC3647198F7B6910974C82E28A /* FBSnapshotTestCase.h */,
+				CB84F5C67B04B4A4E247DDB4E1944F4A /* FBSnapshotTestCase.m */,
+				D4DEBCB865F2EA196D9EF45A58F065A8 /* FBSnapshotTestCasePlatform.h */,
+				17856FA1EAE6ABF4EF5054DC9A9C4EBF /* FBSnapshotTestCasePlatform.m */,
+				C85E26FA986CD94D9B1972485111F7F3 /* FBSnapshotTestController.h */,
+				1AD6E1742EECC0CF58F2E6AD7F04AFC9 /* FBSnapshotTestController.m */,
+				0DC23D0336A521F814A141D182EF7029 /* UIApplication+StrictKeyWindow.h */,
+				61254B897E173361868ED6BA75E958CD /* UIApplication+StrictKeyWindow.m */,
+				4CF9F76F3C32B145B086E94C7C796850 /* UIImage+Compare.h */,
+				325FACEDC898BDF9E9773951AB283FD9 /* UIImage+Compare.m */,
+				0DEAC74750F0A6F0BEE1118C95E60316 /* UIImage+Diff.h */,
+				B70850209BB782FB9C1AC8525D344992 /* UIImage+Diff.m */,
+				B3B6F5D35D7531ABBF66BA6D6FECAE3E /* UIImage+Snapshot.h */,
+				32514FFB288ABBB1A4553AF0B8469A64 /* UIImage+Snapshot.m */,
+			);
+			name = Core;
+			sourceTree = "<group>";
+		};
+		753AFA046571E1906E40C993358EFC55 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				918A7642F88B0B0A224E373F45863DDF /* SQHYBRID.modulemap */,
+				2BCA154FDBD024B0FA56089F188F1BF2 /* SQHYBRID-dummy.m */,
+				6F79F8E64C885992182C571DD479AF6A /* SQHYBRID-prefix.pch */,
+				20FC523397EEA872F862578B93CC76C0 /* SQHYBRID-umbrella.h */,
+				58B513C36A1F6CDCA0C0D69041CD2C9C /* SQHYBRID.debug.xcconfig */,
+				13A2ED6FF1C01BA9E8055A21E6112E87 /* SQHYBRID.release.xcconfig */,
+			);
+			name = "Support Files";
+			path = "Example/Pods/Target Support Files/SQHYBRID";
+			sourceTree = "<group>";
+		};
+		966DC7E269C62D20C9737DC41246B1A3 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				68C865300345F7E4AA681D46DBC92C84 /* libWeChatSDK.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		9AF448E924D5FAC0547DDC5CB91175F3 /* Development Pods */ = {
+			isa = PBXGroup;
+			children = (
+				D61631FB1DD25540F65676D5321F05A9 /* SQHYBRID */,
+			);
+			name = "Development Pods";
+			sourceTree = "<group>";
+		};
+		9F53274F0DB973A5CCCA04B7C49D09B7 /* FBSnapshotTestCase */ = {
+			isa = PBXGroup;
+			children = (
+				69B49C4C566F2C4F21A53016CDD1E2EA /* Core */,
+				342EFF9E926C079A8F749A4244A76991 /* Support Files */,
+				0CC5D5DA95EC09B11AE098B815AC5A3E /* SwiftSupport */,
+			);
+			name = FBSnapshotTestCase;
+			path = FBSnapshotTestCase;
+			sourceTree = "<group>";
+		};
+		C8EF266CC1A4F39B5A95F21E5284E17E /* Pod */ = {
+			isa = PBXGroup;
+			children = (
+				75C0D801D171D0726EF83A95E74BF8B1 /* LICENSE */,
+				D6783F262F9E8F18EB9BA9CA1EC55C41 /* README.md */,
+				63C18022A969CE4FDF74B0C07BFBF184 /* SQHYBRID.podspec */,
+			);
+			name = Pod;
+			sourceTree = "<group>";
+		};
+		CF1408CF629C7361332E53B88F7BD30C = {
+			isa = PBXGroup;
+			children = (
+				9D940727FF8FB9C785EB98E56350EF41 /* Podfile */,
+				9AF448E924D5FAC0547DDC5CB91175F3 /* Development Pods */,
+				D89477F20FB1DE18A04690586D7808C4 /* Frameworks */,
+				D8EED65F5C1331648F3DC34A34AFD79B /* Pods */,
+				07A60DD8FE91A89ED01BEB4A75B79858 /* Products */,
+				D6ED7306664D1854E238C5A4684E4341 /* Targets Support Files */,
+			);
+			sourceTree = "<group>";
+		};
+		D61631FB1DD25540F65676D5321F05A9 /* SQHYBRID */ = {
+			isa = PBXGroup;
+			children = (
+				6D03C95CF18F17BCE1D4395082D24AAC /* People.h */,
+				18573F719555E5FC9E360A69A00CD2CF /* People.m */,
+				9747B26928BB19D179AC8B3D5DABB1B5 /* Person.swift */,
+				6923936BEBF68DD371C17DE7F23BB8DC /* ReplaceMe.m */,
+				C8EF266CC1A4F39B5A95F21E5284E17E /* Pod */,
+				753AFA046571E1906E40C993358EFC55 /* Support Files */,
+			);
+			name = SQHYBRID;
+			path = ../..;
+			sourceTree = "<group>";
+		};
+		D6ED7306664D1854E238C5A4684E4341 /* Targets Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				623EF6FE1030311D9358485FDBCEC961 /* Pods-SQHYBRID_Example */,
+				43945E56F5656D8A0088A19A68D091D6 /* Pods-SQHYBRID_Tests */,
+			);
+			name = "Targets Support Files";
+			sourceTree = "<group>";
+		};
+		D89477F20FB1DE18A04690586D7808C4 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		D8EED65F5C1331648F3DC34A34AFD79B /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				9F53274F0DB973A5CCCA04B7C49D09B7 /* FBSnapshotTestCase */,
+				EE7EA4D3F0F9848EBBF1AA702CCAC17F /* SQWeChat */,
+				10E581C1A24F890C1538C2F26EEF6364 /* WechatOpenSDK */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		DDD24566E4D5D544A980C232BBE6ABC2 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				1118DA729E0150802E1147C4D270B345 /* SQWeChat.modulemap */,
+				3E1C97E90E3B8502438CCF28998923E1 /* SQWeChat-dummy.m */,
+				98EF62571C19D1B9BD87BF05CF9382FC /* SQWeChat-prefix.pch */,
+				93A27958EE3171885E150869CFC88848 /* SQWeChat-umbrella.h */,
+				1B126016E176C3B5C8449B90D134869A /* SQWeChat.debug.xcconfig */,
+				6EEDE1897E01865CC836CBC2ECA65646 /* SQWeChat.release.xcconfig */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/SQWeChat";
+			sourceTree = "<group>";
+		};
+		EE7EA4D3F0F9848EBBF1AA702CCAC17F /* SQWeChat */ = {
+			isa = PBXGroup;
+			children = (
+				CECC75B1BDE762040C69FA3FDB99E9E8 /* SQWeChat.h */,
+				9AC5BA179F9FE58C3CD5EF4265B6C4CC /* SQWeChat.m */,
+				DDD24566E4D5D544A980C232BBE6ABC2 /* Support Files */,
+			);
+			name = SQWeChat;
+			path = SQWeChat;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		5D1E6C0C81566E5EA082ED85D00D7260 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DA46F4690046D8DF12C0B4ED808A8B42 /* Pods-SQHYBRID_Example-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		63985884902D0C81BB2AA63DF3EDEC6C /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				91B4C532D3EB0021BC8009E102399E40 /* Pods-SQHYBRID_Tests-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		63F63C3543321275DF5D8200694254EB /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2A6E7B2258C3DA9E99A0C5FC7E87F32F /* SQWeChat-umbrella.h in Headers */,
+				C01FC19A04911C2BC603C144A7078E9E /* SQWeChat.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7D090AE4E77077826B54F3F0F8FD4B21 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AB3570007412B510F78B81D1A83E7FC9 /* FBSnapshotTestCase-umbrella.h in Headers */,
+				0978FEF1E925744EEAF7E76217BF4A86 /* FBSnapshotTestCase.h in Headers */,
+				50544CC39838135DDBF0047A180E97F4 /* FBSnapshotTestCasePlatform.h in Headers */,
+				EFA45E70CD6224C8B68738ED9E97CA21 /* FBSnapshotTestController.h in Headers */,
+				8C0B5EBDF83DDC66A416370F936B9A00 /* UIApplication+StrictKeyWindow.h in Headers */,
+				C3CA256CC5C3308862AFF3218B47B684 /* UIImage+Compare.h in Headers */,
+				C227FD1C858148327AD6CF45F9BC35E4 /* UIImage+Diff.h in Headers */,
+				F876F054886227B059B0778C6C1A0A83 /* UIImage+Snapshot.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B12E298C66AEB4D29FCB9F615B52EF1E /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0A6BCFDC5E4D2F5A6EF0F97C839A1212 /* People.h in Headers */,
+				1848D9FEDA039DD5627A3491792221F6 /* SQHYBRID-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		1BEAD0DCE223615A42952680DAB066B1 /* SQHYBRID */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 314ADCB238A0EAD39705909EE5298CD5 /* Build configuration list for PBXNativeTarget "SQHYBRID" */;
+			buildPhases = (
+				B12E298C66AEB4D29FCB9F615B52EF1E /* Headers */,
+				A615D81A2621C59E2F05D642932D2B9B /* Sources */,
+				158102E0002E78395210B6B5C02D02CB /* Frameworks */,
+				85844A887E9BB0EFF7C7F5AE06B5DD06 /* Copy generated compatibility header */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				5FA9C5867E0E06FC418CDE90CF3EBF88 /* PBXTargetDependency */,
+			);
+			name = SQHYBRID;
+			productName = SQHYBRID;
+			productReference = 99FFC0C74964A673FA06C46F0783A37F /* libSQHYBRID.a */;
+			productType = "com.apple.product-type.library.static";
+		};
+		5606EA63E448168B7A890C63106F2DB3 /* Pods-SQHYBRID_Example */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 4785710DE5A7456663662C3C5976C3CE /* Build configuration list for PBXNativeTarget "Pods-SQHYBRID_Example" */;
+			buildPhases = (
+				5D1E6C0C81566E5EA082ED85D00D7260 /* Headers */,
+				DC650FA53DF2EE908A923CDFDB612F22 /* Sources */,
+				BEAC8F6B24430E838AA06540973FAA50 /* Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				A670F28D0A3271CA768FA06966EBDA81 /* PBXTargetDependency */,
+				9EBF3CDDEB6D71A47D058E56580008A1 /* PBXTargetDependency */,
+				7C874842102A555D0328C07948A3F271 /* PBXTargetDependency */,
+			);
+			name = "Pods-SQHYBRID_Example";
+			productName = "Pods-SQHYBRID_Example";
+			productReference = 669F6B5ED110F1A7F435A24EA47E9FE7 /* libPods-SQHYBRID_Example.a */;
+			productType = "com.apple.product-type.library.static";
+		};
+		6D248597720A855B25EA4F3628D8FDE9 /* Pods-SQHYBRID_Tests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 3B55302FBEC89204D969D02E587906F1 /* Build configuration list for PBXNativeTarget "Pods-SQHYBRID_Tests" */;
+			buildPhases = (
+				63985884902D0C81BB2AA63DF3EDEC6C /* Headers */,
+				868480BDA656803D3B8FC87B95E4741A /* Sources */,
+				CBB626DE0886B7C7A92B6796CA56C998 /* Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				D13952D2658CE754502531D271794B38 /* PBXTargetDependency */,
+				A34B84028B48C8A9B3F2B47A757B04D8 /* PBXTargetDependency */,
+			);
+			name = "Pods-SQHYBRID_Tests";
+			productName = "Pods-SQHYBRID_Tests";
+			productReference = 0F9B9B7C20274AA39545DB3835BFF09C /* libPods-SQHYBRID_Tests.a */;
+			productType = "com.apple.product-type.library.static";
+		};
+		98A98149697C80CEF8D5772791E92E66 /* FBSnapshotTestCase */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 252D6F021F665BE931E176A7F1CDBED5 /* Build configuration list for PBXNativeTarget "FBSnapshotTestCase" */;
+			buildPhases = (
+				7D090AE4E77077826B54F3F0F8FD4B21 /* Headers */,
+				A1401BD86D886C360D4729830C6BF16E /* Sources */,
+				1CEECC99BBEC723A29C519694ABEC00B /* Frameworks */,
+				FBA5CD29B04AECA92396367695CC380B /* Copy generated compatibility header */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = FBSnapshotTestCase;
+			productName = FBSnapshotTestCase;
+			productReference = 5C4F31330DFA99D699E4BDC8C3573D73 /* libFBSnapshotTestCase.a */;
+			productType = "com.apple.product-type.library.static";
+		};
+		A1A9162B219778CF8A78AD946F946F1A /* SQWeChat */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = DDD67065819452A011D49592B1EB8CAC /* Build configuration list for PBXNativeTarget "SQWeChat" */;
+			buildPhases = (
+				63F63C3543321275DF5D8200694254EB /* Headers */,
+				43B4A50599E84A8BECABBEDD0D4BE034 /* Sources */,
+				326089C60310E03CF181103658F513D6 /* Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				5D7552A7EFACD684A02AC8E66CB38E8F /* PBXTargetDependency */,
+			);
+			name = SQWeChat;
+			productName = SQWeChat;
+			productReference = 86E88AD4A3F14193AA30C783A98D8DBB /* libSQWeChat.a */;
+			productType = "com.apple.product-type.library.static";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		BFDFE7DC352907FC980B868725387E98 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1100;
+				LastUpgradeCheck = 1100;
+			};
+			buildConfigurationList = 4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = CF1408CF629C7361332E53B88F7BD30C;
+			productRefGroup = 07A60DD8FE91A89ED01BEB4A75B79858 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				98A98149697C80CEF8D5772791E92E66 /* FBSnapshotTestCase */,
+				5606EA63E448168B7A890C63106F2DB3 /* Pods-SQHYBRID_Example */,
+				6D248597720A855B25EA4F3628D8FDE9 /* Pods-SQHYBRID_Tests */,
+				1BEAD0DCE223615A42952680DAB066B1 /* SQHYBRID */,
+				A1A9162B219778CF8A78AD946F946F1A /* SQWeChat */,
+				8554F6236D2AA202CF58503D2DF29730 /* WechatOpenSDK */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		85844A887E9BB0EFF7C7F5AE06B5DD06 /* Copy generated compatibility header */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${DERIVED_SOURCES_DIR}/${PRODUCT_MODULE_NAME}-Swift.h",
+				"${PODS_ROOT}/Headers/Public/SQHYBRID/SQHYBRID.modulemap",
+				"${PODS_ROOT}/Headers/Public/SQHYBRID/SQHYBRID-umbrella.h",
+			);
+			name = "Copy generated compatibility header";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"${BUILT_PRODUCTS_DIR}/${PRODUCT_MODULE_NAME}.modulemap",
+				"${BUILT_PRODUCTS_DIR}/SQHYBRID-umbrella.h",
+				"${BUILT_PRODUCTS_DIR}/Swift Compatibility Header/${PRODUCT_MODULE_NAME}-Swift.h",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "COMPATIBILITY_HEADER_PATH=\"${BUILT_PRODUCTS_DIR}/Swift Compatibility Header/${PRODUCT_MODULE_NAME}-Swift.h\"\nMODULE_MAP_PATH=\"${BUILT_PRODUCTS_DIR}/${PRODUCT_MODULE_NAME}.modulemap\"\n\nditto \"${DERIVED_SOURCES_DIR}/${PRODUCT_MODULE_NAME}-Swift.h\" \"${COMPATIBILITY_HEADER_PATH}\"\nditto \"${PODS_ROOT}/Headers/Public/SQHYBRID/SQHYBRID.modulemap\" \"${MODULE_MAP_PATH}\"\nditto \"${PODS_ROOT}/Headers/Public/SQHYBRID/SQHYBRID-umbrella.h\" \"${BUILT_PRODUCTS_DIR}\"\nprintf \"\\n\\nmodule ${PRODUCT_MODULE_NAME}.Swift {\\n  header \\\"${COMPATIBILITY_HEADER_PATH}\\\"\\n  requires objc\\n}\\n\" >> \"${MODULE_MAP_PATH}\"\n";
+		};
+		FBA5CD29B04AECA92396367695CC380B /* Copy generated compatibility header */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${DERIVED_SOURCES_DIR}/${PRODUCT_MODULE_NAME}-Swift.h",
+				"${PODS_ROOT}/Headers/Public/FBSnapshotTestCase/FBSnapshotTestCase.modulemap",
+				"${PODS_ROOT}/Headers/Public/FBSnapshotTestCase/FBSnapshotTestCase-umbrella.h",
+			);
+			name = "Copy generated compatibility header";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"${BUILT_PRODUCTS_DIR}/${PRODUCT_MODULE_NAME}.modulemap",
+				"${BUILT_PRODUCTS_DIR}/FBSnapshotTestCase-umbrella.h",
+				"${BUILT_PRODUCTS_DIR}/Swift Compatibility Header/${PRODUCT_MODULE_NAME}-Swift.h",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "COMPATIBILITY_HEADER_PATH=\"${BUILT_PRODUCTS_DIR}/Swift Compatibility Header/${PRODUCT_MODULE_NAME}-Swift.h\"\nMODULE_MAP_PATH=\"${BUILT_PRODUCTS_DIR}/${PRODUCT_MODULE_NAME}.modulemap\"\n\nditto \"${DERIVED_SOURCES_DIR}/${PRODUCT_MODULE_NAME}-Swift.h\" \"${COMPATIBILITY_HEADER_PATH}\"\nditto \"${PODS_ROOT}/Headers/Public/FBSnapshotTestCase/FBSnapshotTestCase.modulemap\" \"${MODULE_MAP_PATH}\"\nditto \"${PODS_ROOT}/Headers/Public/FBSnapshotTestCase/FBSnapshotTestCase-umbrella.h\" \"${BUILT_PRODUCTS_DIR}\"\nprintf \"\\n\\nmodule ${PRODUCT_MODULE_NAME}.Swift {\\n  header \\\"${COMPATIBILITY_HEADER_PATH}\\\"\\n  requires objc\\n}\\n\" >> \"${MODULE_MAP_PATH}\"\n";
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		43B4A50599E84A8BECABBEDD0D4BE034 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				58F11D103B28DD54D3E83289C5D64CCE /* SQWeChat-dummy.m in Sources */,
+				7C7622AEBBED15F0484F33656E694196 /* SQWeChat.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		868480BDA656803D3B8FC87B95E4741A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				148FB4E43367C5A3C97B293FBB230915 /* Pods-SQHYBRID_Tests-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A1401BD86D886C360D4729830C6BF16E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D5FAA5ED25EAEE61F6476D63E0CA9894 /* FBSnapshotTestCase-dummy.m in Sources */,
+				D607E281B6103D213C2295CE59CC6658 /* FBSnapshotTestCase.m in Sources */,
+				5693A08347C5CFEBCEBAA2AED5FADEE1 /* FBSnapshotTestCasePlatform.m in Sources */,
+				77963FF7EE2C6BF810466A85D700811E /* FBSnapshotTestController.m in Sources */,
+				87D6F8413A7B375C836E57CCAD550A7F /* SwiftSupport.swift in Sources */,
+				19F37CC50E23DE48D4345923514B8F98 /* UIApplication+StrictKeyWindow.m in Sources */,
+				A457A948F248D2A52CD05F067B0C1367 /* UIImage+Compare.m in Sources */,
+				B8ADA30C051A2790FE88BE07CBFFF592 /* UIImage+Diff.m in Sources */,
+				CBD39660A2AEA338F8D2CE18BEBECEF9 /* UIImage+Snapshot.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A615D81A2621C59E2F05D642932D2B9B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7F6C0B2BB3235AD3A183F0958A445436 /* People.m in Sources */,
+				F1BA76E1B546BF0C4D34A840685F4BCB /* Person.swift in Sources */,
+				B14450EE0048E2F0F749FD44DEE286E7 /* ReplaceMe.m in Sources */,
+				4CEBABEEEC18A57446C4EE396A3A4E7D /* SQHYBRID-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DC650FA53DF2EE908A923CDFDB612F22 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				73DAF1110AA478455AA43A9788FEF551 /* Pods-SQHYBRID_Example-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		5D7552A7EFACD684A02AC8E66CB38E8F /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = WechatOpenSDK;
+			target = 8554F6236D2AA202CF58503D2DF29730 /* WechatOpenSDK */;
+			targetProxy = 1D85D0AA3906A85D8756A01AC01AF5B7 /* PBXContainerItemProxy */;
+		};
+		5FA9C5867E0E06FC418CDE90CF3EBF88 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = SQWeChat;
+			target = A1A9162B219778CF8A78AD946F946F1A /* SQWeChat */;
+			targetProxy = 7ED3365A76D2A8793CA94C0FE99863C6 /* PBXContainerItemProxy */;
+		};
+		7C874842102A555D0328C07948A3F271 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = WechatOpenSDK;
+			target = 8554F6236D2AA202CF58503D2DF29730 /* WechatOpenSDK */;
+			targetProxy = 24D1315F96377B856AECC5FC2BDC55CB /* PBXContainerItemProxy */;
+		};
+		9EBF3CDDEB6D71A47D058E56580008A1 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = SQWeChat;
+			target = A1A9162B219778CF8A78AD946F946F1A /* SQWeChat */;
+			targetProxy = 46ED3D46B552C3C72F2ACB7C532605F7 /* PBXContainerItemProxy */;
+		};
+		A34B84028B48C8A9B3F2B47A757B04D8 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = "Pods-SQHYBRID_Example";
+			target = 5606EA63E448168B7A890C63106F2DB3 /* Pods-SQHYBRID_Example */;
+			targetProxy = 8578FA23CC2A81034D4536C75F14D0D4 /* PBXContainerItemProxy */;
+		};
+		A670F28D0A3271CA768FA06966EBDA81 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = SQHYBRID;
+			target = 1BEAD0DCE223615A42952680DAB066B1 /* SQHYBRID */;
+			targetProxy = A385A8E691CBCA8D78BEBE5B0490CD27 /* PBXContainerItemProxy */;
+		};
+		D13952D2658CE754502531D271794B38 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = FBSnapshotTestCase;
+			target = 98A98149697C80CEF8D5772791E92E66 /* FBSnapshotTestCase */;
+			targetProxy = E4BE3460D1A9C75E27CB2E2F9D53CE99 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		021ED8444C8FA1757AB9EA7FD3C48D20 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = B0E536CD1202A450ADB2EF0B0A1D041C /* Pods-SQHYBRID_Tests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-SQHYBRID_Tests/Pods-SQHYBRID_Tests.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		073673ACA608556450A266DB56896860 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 1B126016E176C3B5C8449B90D134869A /* SQWeChat.debug.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				GCC_PREFIX_HEADER = "Target Support Files/SQWeChat/SQWeChat-prefix.pch";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				MODULEMAP_FILE = Headers/Public/SQWeChat/SQWeChat.modulemap;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PRIVATE_HEADERS_FOLDER_PATH = "";
+				PRODUCT_MODULE_NAME = SQWeChat;
+				PRODUCT_NAME = SQWeChat;
+				PUBLIC_HEADERS_FOLDER_PATH = "";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		34482D30FD411A3AFB66C3A0C45819CA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = D6CEAB39D4469EEC862A6AC1F6425D3C /* FBSnapshotTestCase.debug.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				GCC_PREFIX_HEADER = "Target Support Files/FBSnapshotTestCase/FBSnapshotTestCase-prefix.pch";
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				MODULEMAP_FILE = Headers/Public/FBSnapshotTestCase/FBSnapshotTestCase.modulemap;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PRIVATE_HEADERS_FOLDER_PATH = "";
+				PRODUCT_MODULE_NAME = FBSnapshotTestCase;
+				PRODUCT_NAME = FBSnapshotTestCase;
+				PUBLIC_HEADERS_FOLDER_PATH = "";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		5AC1B04CCC8EA8BE0E01DDFFB1459E88 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = E428F1BA3BB9F27F620D75238D23BA34 /* Pods-SQHYBRID_Example.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-SQHYBRID_Example/Pods-SQHYBRID_Example.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		66B07CDE34E73C0BD4F118E5EABF4908 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 2B563CB9A3FDC57B23D260998AD679C5 /* WechatOpenSDK.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		67280DB9C8372C30063968F2FDA49CF4 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 00F731A44465D312DE928667B403112E /* Pods-SQHYBRID_Tests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-SQHYBRID_Tests/Pods-SQHYBRID_Tests.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		772F4C69EF2D8F44E77BB5063A342E2D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 58B513C36A1F6CDCA0C0D69041CD2C9C /* SQHYBRID.debug.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				GCC_PREFIX_HEADER = "Target Support Files/SQHYBRID/SQHYBRID-prefix.pch";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				MODULEMAP_FILE = Headers/Public/SQHYBRID/SQHYBRID.modulemap;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PRIVATE_HEADERS_FOLDER_PATH = "";
+				PRODUCT_MODULE_NAME = SQHYBRID;
+				PRODUCT_NAME = SQHYBRID;
+				PUBLIC_HEADERS_FOLDER_PATH = "";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		7EE7A78859F657F6BEFC651185B43192 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_RELEASE=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				SWIFT_VERSION = 5.0;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Release;
+		};
+		83B69AF52BE04E7C764702079B9F7DCB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = D175B032027E8A83FFA2B0CF30C90A83 /* WechatOpenSDK.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		99B38E2715407661B6B539A5E043D9AA /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 6EEDE1897E01865CC836CBC2ECA65646 /* SQWeChat.release.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				GCC_PREFIX_HEADER = "Target Support Files/SQWeChat/SQWeChat-prefix.pch";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				MODULEMAP_FILE = Headers/Public/SQWeChat/SQWeChat.modulemap;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PRIVATE_HEADERS_FOLDER_PATH = "";
+				PRODUCT_MODULE_NAME = SQWeChat;
+				PRODUCT_NAME = SQWeChat;
+				PUBLIC_HEADERS_FOLDER_PATH = "";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		CF64B4F905B78BAF0D6A739F7EC8E5F8 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 13A2ED6FF1C01BA9E8055A21E6112E87 /* SQHYBRID.release.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				GCC_PREFIX_HEADER = "Target Support Files/SQHYBRID/SQHYBRID-prefix.pch";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				MODULEMAP_FILE = Headers/Public/SQHYBRID/SQHYBRID.modulemap;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PRIVATE_HEADERS_FOLDER_PATH = "";
+				PRODUCT_MODULE_NAME = SQHYBRID;
+				PRODUCT_NAME = SQHYBRID;
+				PUBLIC_HEADERS_FOLDER_PATH = "";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		D299434AB35E7FD6F7921C8EF24742FF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_DEBUG=1",
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 5.0;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Debug;
+		};
+		EA7CDF9D95FF6DCFCEAB966A4FF9B314 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = D1E1EC6A8C832ADF332BB44DF2B76064 /* Pods-SQHYBRID_Example.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-SQHYBRID_Example/Pods-SQHYBRID_Example.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		F1E67B74B8AC230978E7231A084A210F /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = A784BCD1E18B3D43FFDC7975B8CFB65C /* FBSnapshotTestCase.release.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				GCC_PREFIX_HEADER = "Target Support Files/FBSnapshotTestCase/FBSnapshotTestCase-prefix.pch";
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				MODULEMAP_FILE = Headers/Public/FBSnapshotTestCase/FBSnapshotTestCase.modulemap;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PRIVATE_HEADERS_FOLDER_PATH = "";
+				PRODUCT_MODULE_NAME = FBSnapshotTestCase;
+				PRODUCT_NAME = FBSnapshotTestCase;
+				PUBLIC_HEADERS_FOLDER_PATH = "";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		252D6F021F665BE931E176A7F1CDBED5 /* Build configuration list for PBXNativeTarget "FBSnapshotTestCase" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				34482D30FD411A3AFB66C3A0C45819CA /* Debug */,
+				F1E67B74B8AC230978E7231A084A210F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		314ADCB238A0EAD39705909EE5298CD5 /* Build configuration list for PBXNativeTarget "SQHYBRID" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				772F4C69EF2D8F44E77BB5063A342E2D /* Debug */,
+				CF64B4F905B78BAF0D6A739F7EC8E5F8 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		3B55302FBEC89204D969D02E587906F1 /* Build configuration list for PBXNativeTarget "Pods-SQHYBRID_Tests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				021ED8444C8FA1757AB9EA7FD3C48D20 /* Debug */,
+				67280DB9C8372C30063968F2FDA49CF4 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		4785710DE5A7456663662C3C5976C3CE /* Build configuration list for PBXNativeTarget "Pods-SQHYBRID_Example" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5AC1B04CCC8EA8BE0E01DDFFB1459E88 /* Debug */,
+				EA7CDF9D95FF6DCFCEAB966A4FF9B314 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D299434AB35E7FD6F7921C8EF24742FF /* Debug */,
+				7EE7A78859F657F6BEFC651185B43192 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		B4396AE737F0AA89F8D89F674B8511C8 /* Build configuration list for PBXAggregateTarget "WechatOpenSDK" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				83B69AF52BE04E7C764702079B9F7DCB /* Debug */,
+				66B07CDE34E73C0BD4F118E5EABF4908 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		DDD67065819452A011D49592B1EB8CAC /* Build configuration list for PBXNativeTarget "SQWeChat" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				073673ACA608556450A266DB56896860 /* Debug */,
+				99B38E2715407661B6B539A5E043D9AA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+}

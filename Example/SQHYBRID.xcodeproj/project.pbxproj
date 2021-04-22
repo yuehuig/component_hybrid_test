@@ -7,7 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		0800CB526196B3A8BE9AB22C /* Pods_SQHYBRID_Example.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C4E1E062DE681F19F2DA9A41 /* Pods_SQHYBRID_Example.framework */; };
+		24EB1DBA8FDA371A33C611C1 /* libPods-SQHYBRID_Tests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 4862FFE62B18BFA88282790E /* libPods-SQHYBRID_Tests.a */; };
 		6003F58E195388D20070C39A /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6003F58D195388D20070C39A /* Foundation.framework */; };
 		6003F590195388D20070C39A /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6003F58F195388D20070C39A /* CoreGraphics.framework */; };
 		6003F592195388D20070C39A /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6003F591195388D20070C39A /* UIKit.framework */; };
@@ -23,7 +23,7 @@
 		6003F5BC195388D20070C39A /* Tests.m in Sources */ = {isa = PBXBuildFile; fileRef = 6003F5BB195388D20070C39A /* Tests.m */; };
 		71719F9F1E33DC2100824A3D /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 71719F9D1E33DC2100824A3D /* LaunchScreen.storyboard */; };
 		873B8AEB1B1F5CCA007FD442 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 873B8AEA1B1F5CCA007FD442 /* Main.storyboard */; };
-		98324AD472B23EEF39F8D8D2 /* Pods_SQHYBRID_Tests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 170E817B4FC66CD8C378B920 /* Pods_SQHYBRID_Tests.framework */; };
+		A2C48DE812D774D8BB06598F /* libPods-SQHYBRID_Example.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 96064EACD7EC0EEC5F69A659 /* libPods-SQHYBRID_Example.a */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -37,11 +37,11 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		0A5FE78395477C432A2D526E /* SQHYBRID.podspec */ = {isa = PBXFileReference; includeInIndex = 1; name = SQHYBRID.podspec; path = ../SQHYBRID.podspec; sourceTree = "<group>"; };
-		170E817B4FC66CD8C378B920 /* Pods_SQHYBRID_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_SQHYBRID_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		0A5FE78395477C432A2D526E /* SQHYBRID.podspec */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = SQHYBRID.podspec; path = ../SQHYBRID.podspec; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		3288B3FB6F30E9DB7807A8BA /* Pods-SQHYBRID_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SQHYBRID_Example.debug.xcconfig"; path = "Target Support Files/Pods-SQHYBRID_Example/Pods-SQHYBRID_Example.debug.xcconfig"; sourceTree = "<group>"; };
 		416AEFADF1DAF479F0B047ED /* Pods-SQHYBRID_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SQHYBRID_Tests.release.xcconfig"; path = "Target Support Files/Pods-SQHYBRID_Tests/Pods-SQHYBRID_Tests.release.xcconfig"; sourceTree = "<group>"; };
 		475D8B0A6A9AD1BDFF488F37 /* Pods-SQHYBRID_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SQHYBRID_Example.release.xcconfig"; path = "Target Support Files/Pods-SQHYBRID_Example/Pods-SQHYBRID_Example.release.xcconfig"; sourceTree = "<group>"; };
+		4862FFE62B18BFA88282790E /* libPods-SQHYBRID_Tests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-SQHYBRID_Tests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		6003F58A195388D20070C39A /* SQHYBRID_Example.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SQHYBRID_Example.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		6003F58D195388D20070C39A /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		6003F58F195388D20070C39A /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
@@ -62,10 +62,10 @@
 		6003F5BB195388D20070C39A /* Tests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Tests.m; sourceTree = "<group>"; };
 		606FC2411953D9B200FFA9A0 /* Tests-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Tests-Prefix.pch"; sourceTree = "<group>"; };
 		71719F9E1E33DC2100824A3D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
-		83F3F41CC3F22A2134904816 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; name = README.md; path = ../README.md; sourceTree = "<group>"; };
-		8422DDABD721251B003B94CF /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
+		83F3F41CC3F22A2134904816 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; name = README.md; path = ../README.md; sourceTree = "<group>"; };
+		8422DDABD721251B003B94CF /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
 		873B8AEA1B1F5CCA007FD442 /* Main.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; name = Main.storyboard; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
-		C4E1E062DE681F19F2DA9A41 /* Pods_SQHYBRID_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_SQHYBRID_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		96064EACD7EC0EEC5F69A659 /* libPods-SQHYBRID_Example.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-SQHYBRID_Example.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		E669D24E61630A32F91AC6D5 /* Pods-SQHYBRID_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SQHYBRID_Tests.debug.xcconfig"; path = "Target Support Files/Pods-SQHYBRID_Tests/Pods-SQHYBRID_Tests.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -77,7 +77,7 @@
 				6003F590195388D20070C39A /* CoreGraphics.framework in Frameworks */,
 				6003F592195388D20070C39A /* UIKit.framework in Frameworks */,
 				6003F58E195388D20070C39A /* Foundation.framework in Frameworks */,
-				0800CB526196B3A8BE9AB22C /* Pods_SQHYBRID_Example.framework in Frameworks */,
+				A2C48DE812D774D8BB06598F /* libPods-SQHYBRID_Example.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -88,7 +88,7 @@
 				6003F5B0195388D20070C39A /* XCTest.framework in Frameworks */,
 				6003F5B2195388D20070C39A /* UIKit.framework in Frameworks */,
 				6003F5B1195388D20070C39A /* Foundation.framework in Frameworks */,
-				98324AD472B23EEF39F8D8D2 /* Pods_SQHYBRID_Tests.framework in Frameworks */,
+				24EB1DBA8FDA371A33C611C1 /* libPods-SQHYBRID_Tests.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -123,8 +123,8 @@
 				6003F58F195388D20070C39A /* CoreGraphics.framework */,
 				6003F591195388D20070C39A /* UIKit.framework */,
 				6003F5AF195388D20070C39A /* XCTest.framework */,
-				C4E1E062DE681F19F2DA9A41 /* Pods_SQHYBRID_Example.framework */,
-				170E817B4FC66CD8C378B920 /* Pods_SQHYBRID_Tests.framework */,
+				96064EACD7EC0EEC5F69A659 /* libPods-SQHYBRID_Example.a */,
+				4862FFE62B18BFA88282790E /* libPods-SQHYBRID_Tests.a */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
@@ -193,7 +193,6 @@
 				E669D24E61630A32F91AC6D5 /* Pods-SQHYBRID_Tests.debug.xcconfig */,
 				416AEFADF1DAF479F0B047ED /* Pods-SQHYBRID_Tests.release.xcconfig */,
 			);
-			name = Pods;
 			path = Pods;
 			sourceTree = "<group>";
 		};
@@ -208,7 +207,6 @@
 				6003F586195388D20070C39A /* Sources */,
 				6003F587195388D20070C39A /* Frameworks */,
 				6003F588195388D20070C39A /* Resources */,
-				B37E982FD028D1D5BFDA5FE3 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -227,7 +225,6 @@
 				6003F5AA195388D20070C39A /* Sources */,
 				6003F5AB195388D20070C39A /* Frameworks */,
 				6003F5AC195388D20070C39A /* Resources */,
-				13AB60C6FC716D60F00D0E89 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -249,6 +246,9 @@
 				LastUpgradeCheck = 0720;
 				ORGANIZATIONNAME = "475993847@qq.com";
 				TargetAttributes = {
+					6003F589195388D20070C39A = {
+						DevelopmentTeam = 865L62UDE9;
+					};
 					6003F5AD195388D20070C39A = {
 						TestTargetID = 6003F589195388D20070C39A;
 					};
@@ -259,6 +259,7 @@
 			developmentRegion = English;
 			hasScannedForEncodings = 0;
 			knownRegions = (
+				English,
 				en,
 				Base,
 			);
@@ -296,24 +297,6 @@
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXShellScriptBuildPhase section */
-		13AB60C6FC716D60F00D0E89 /* [CP] Embed Pods Frameworks */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputPaths = (
-				"${PODS_ROOT}/Target Support Files/Pods-SQHYBRID_Tests/Pods-SQHYBRID_Tests-frameworks.sh",
-				"${BUILT_PRODUCTS_DIR}/FBSnapshotTestCase/FBSnapshotTestCase.framework",
-			);
-			name = "[CP] Embed Pods Frameworks";
-			outputPaths = (
-				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/FBSnapshotTestCase.framework",
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-SQHYBRID_Tests/Pods-SQHYBRID_Tests-frameworks.sh\"\n";
-			showEnvVarsInLog = 0;
-		};
 		B1F9FB3860EC099507E941B9 /* [CP] Check Pods Manifest.lock */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
@@ -334,24 +317,6 @@
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
 			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
-			showEnvVarsInLog = 0;
-		};
-		B37E982FD028D1D5BFDA5FE3 /* [CP] Embed Pods Frameworks */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputPaths = (
-				"${PODS_ROOT}/Target Support Files/Pods-SQHYBRID_Example/Pods-SQHYBRID_Example-frameworks.sh",
-				"${BUILT_PRODUCTS_DIR}/SQHYBRID/SQHYBRID.framework",
-			);
-			name = "[CP] Embed Pods Frameworks";
-			outputPaths = (
-				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/SQHYBRID.framework",
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-SQHYBRID_Example/Pods-SQHYBRID_Example-frameworks.sh\"\n";
 			showEnvVarsInLog = 0;
 		};
 		BCE1A2648E9E18F427A51A2D /* [CP] Check Pods Manifest.lock */ = {
@@ -513,13 +478,21 @@
 			baseConfigurationReference = 3288B3FB6F30E9DB7807A8BA /* Pods-SQHYBRID_Example.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = 865L62UDE9;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "SQHYBRID/SQHYBRID-Prefix.pch";
 				INFOPLIST_FILE = "SQHYBRID/SQHYBRID-Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "/usr/lib/swift $(inherited)";
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"\"${PODS_ROOT}/WechatOpenSDK/OpenSDK1.8.7.1\"",
+					"\"$(TOOLCHAIN_DIR)/usr/lib/swift/$(PLATFORM_NAME)\"",
+					"\"$(TOOLCHAIN_DIR)/usr/lib/swift-5.0/$(PLATFORM_NAME)\"",
+				);
 				MODULE_NAME = ExampleApp;
 				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.demo.${PRODUCT_NAME:rfc1034identifier}";
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_VERSION = 4.0;
+				SWIFT_VERSION = 5.0;
 				WRAPPER_EXTENSION = app;
 			};
 			name = Debug;
@@ -529,13 +502,21 @@
 			baseConfigurationReference = 475D8B0A6A9AD1BDFF488F37 /* Pods-SQHYBRID_Example.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = 865L62UDE9;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "SQHYBRID/SQHYBRID-Prefix.pch";
 				INFOPLIST_FILE = "SQHYBRID/SQHYBRID-Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "/usr/lib/swift $(inherited)";
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"\"${PODS_ROOT}/WechatOpenSDK/OpenSDK1.8.7.1\"",
+					"\"$(TOOLCHAIN_DIR)/usr/lib/swift/$(PLATFORM_NAME)\"",
+					"\"$(TOOLCHAIN_DIR)/usr/lib/swift-5.0/$(PLATFORM_NAME)\"",
+				);
 				MODULE_NAME = ExampleApp;
 				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.demo.${PRODUCT_NAME:rfc1034identifier}";
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_VERSION = 4.0;
+				SWIFT_VERSION = 5.0;
 				WRAPPER_EXTENSION = app;
 			};
 			name = Release;

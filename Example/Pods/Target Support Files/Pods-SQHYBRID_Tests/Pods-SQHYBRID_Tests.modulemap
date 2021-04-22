@@ -1,0 +1,6 @@
+module Pods_SQHYBRID_Tests {
+  umbrella header "Pods-SQHYBRID_Tests-umbrella.h"
+
+  export *
+  module * { export * }
+}

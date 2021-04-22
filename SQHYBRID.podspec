@@ -30,7 +30,21 @@ TODO: Add long description of the pod here.
 
   s.ios.deployment_target = '9.0'
 
-  s.source_files = 'SQHYBRID/Classes/**/*'
+  s.source_files = 'SQHYBRID/Classes/*.{h,m,swift}'
+  s.static_framework = true
+  s.dependency 'SQWeChat'
+  s.user_target_xcconfig = { 'CLANG_ALLOW_NON_MODULAR_INCLUDES_IN_FRAMEWORK_MODULES' => 'YES' }
+  s.swift_version = '5.0'
+  
+  if ENV['push'] == "1"
+      puts '-----------------------提交本地pod---------------------------------------'
+      dev_url = "./"+s.name
+      puts Dir.pwd
+      system 'git add .'
+      system "git commit -m 'pod 提交'"
+      system 'git push origin master'
+      puts '--------------------------结束-----------------------------------------'
+  end
   
   # s.resource_bundles = {
   #   'SQHYBRID' => ['SQHYBRID/Assets/*.png']

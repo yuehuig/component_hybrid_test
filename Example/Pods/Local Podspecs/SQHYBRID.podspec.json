@@ -1,0 +1,33 @@
+{
+  "name": "SQHYBRID",
+  "version": "0.1.0",
+  "summary": "A short description of SQHYBRID.",
+  "description": "TODO: Add long description of the pod here.",
+  "homepage": "https://github.com/475993847@qq.com/SQHYBRID",
+  "license": {
+    "type": "MIT",
+    "file": "LICENSE"
+  },
+  "authors": {
+    "475993847@qq.com": "tianqi@ibantang.com"
+  },
+  "source": {
+    "git": "https://github.com/475993847@qq.com/SQHYBRID.git",
+    "tag": "0.1.0"
+  },
+  "platforms": {
+    "ios": "9.0"
+  },
+  "source_files": "SQHYBRID/Classes/*.{h,m,swift}",
+  "static_framework": true,
+  "dependencies": {
+    "SQWeChat": [
+
+    ]
+  },
+  "user_target_xcconfig": {
+    "CLANG_ALLOW_NON_MODULAR_INCLUDES_IN_FRAMEWORK_MODULES": "YES"
+  },
+  "swift_versions": "5.0",
+  "swift_version": "5.0"
+}

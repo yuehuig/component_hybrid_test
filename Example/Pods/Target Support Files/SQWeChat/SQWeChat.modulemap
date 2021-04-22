@@ -1,0 +1,6 @@
+module SQWeChat {
+  umbrella header "SQWeChat-umbrella.h"
+
+  export *
+  module * { export * }
+}

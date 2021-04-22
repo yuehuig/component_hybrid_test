@@ -1,0 +1,1 @@
+../../../Target Support Files/SQWeChat/SQWeChat-umbrella.h

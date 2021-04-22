@@ -7,6 +7,9 @@
 //
 
 #import "SQViewController.h"
+#import <SQWeChat/SQWeChat.h>
+@import SQHYBRID;
+//#import "SQHYBRID-Swift.h"
 
 @interface SQViewController ()
 
@@ -18,6 +21,16 @@
 {
     [super viewDidLoad];
 	// Do any additional setup after loading the view, typically from a nib.
+    [SQWeChat isWXAppInstalled];
+    Person *p = [[Person alloc] init];
+    p.name = @"xx";
+    NSLog(@"%@---%@",p.name, p.age);
+    
+    People *pp = [[People alloc] init];
+    pp.nickName = @"小明";
+    [pp run];
+    
+    
 }
 
 - (void)didReceiveMemoryWarning

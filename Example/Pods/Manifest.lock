@@ -1,0 +1,36 @@
+PODS:
+  - FBSnapshotTestCase (2.1.4):
+    - FBSnapshotTestCase/SwiftSupport (= 2.1.4)
+  - FBSnapshotTestCase/Core (2.1.4)
+  - FBSnapshotTestCase/SwiftSupport (2.1.4):
+    - FBSnapshotTestCase/Core
+  - SQHYBRID (0.1.0):
+    - SQWeChat
+  - SQWeChat (0.1.5):
+    - WechatOpenSDK
+  - WechatOpenSDK (1.8.7.1)
+
+DEPENDENCIES:
+  - FBSnapshotTestCase
+  - SQHYBRID (from `../`)
+
+SPEC REPOS:
+  http://git.17gwx.com/iOS/SQSpecs.git:
+    - SQWeChat
+  https://github.com/CocoaPods/Specs:
+    - FBSnapshotTestCase
+    - WechatOpenSDK
+
+EXTERNAL SOURCES:
+  SQHYBRID:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  FBSnapshotTestCase: 094f9f314decbabe373b87cc339bea235a63e07a
+  SQHYBRID: 430ff1eb86932e9586aada9a4c811bc0745858a9
+  SQWeChat: 317818e04dd9ce47ec7b14e40f64c22f93788a19
+  WechatOpenSDK: 6a4d1436c15b3b5fe2a0bd383f3046010186da44
+
+PODFILE CHECKSUM: 5d774bd6fa5665c95e33318831cf66d9de58193a
+
+COCOAPODS: 1.10.1

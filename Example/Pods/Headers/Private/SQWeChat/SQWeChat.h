@@ -1,0 +1,1 @@
+../../../SQWeChat/SQWeChat/Classes/SQWeChat.h
